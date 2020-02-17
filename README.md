@@ -10,5 +10,5 @@ HOW TO INSTALL
 1. Download all files in the repository and the pre-trained weights.
 2. Put all of these files in your darknet folder. (follow instructions here www.pjreddie.com to download and build darknet on your computer)
 3. open a terminal in the darknet folder and type,
-   ./darknet detector test obj.data plate-yolov3.cfg  yolov3-tiny_last.weights sample.jpg
+   ./darknet detector test obj.data plate-yolov3-tiny.cfg  yolov3-tiny_last.weights sample.jpg
 
