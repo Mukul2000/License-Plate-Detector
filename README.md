@@ -3,8 +3,8 @@ This project uses YOLO to detect and draw bounding boxes around License Plates o
 
 ### Software Packs Needed
 
-* <a href='https://www.anaconda.com/download/'>Anaconda 3</a> (**Tool comes with most of the required python packages along with python3 & spyder IDE**)<br>
-* <a href='https://github.com/tesseract-ocr/tesseract'>Tesseract Engine</a> (**Must need to be installed**)<br>
+* <a href='https://www.anaconda.com/download/'>Anaconda 3</a> <br>
+* <a href='https://github.com/tesseract-ocr/tesseract'>Tesseract Engine</a> (**Mandatory**)<br>
 
 ### Python Packages Needed
 
@@ -19,6 +19,10 @@ Find the pre-trained weights at https://drive.google.com/open?id=1sBNjFr1531kwMe
 
 HOW TO INSTALL
 1. Install the requirements.txt using your terminal.
+````
+pip install -r requirements.txt
+````
+
 2. Download all files in the repository and the pre-trained weights.
 3. Put all of these files in your darknet folder. (follow instructions here www.pjreddie.com/darknet to download and build darknet on your computer)
 4. open a terminal in the darknet folder and type,
